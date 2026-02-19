@@ -1,7 +1,10 @@
 <!doctype html>
 <html>
+  lang="en">
   <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--fixes so that it works on mobile devices-->
     <title>Website</title>
   </head>
 </html>
@@ -11,14 +14,23 @@
   <p>We have the cow or cows for you!</p>
 </main>
 
-<header>
-  <nav>
-    <ul>
-      <li>Home</li>
-      <li>Products</li>
-      <li>Shopping cart</li>
-      <li>About us</li>
-      <li>Contact</li>
-    </ul>
-  </nav>
-</header>
+<body>
+  <header>
+    <meta charset="utf-8" />
+    <title>Website</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <!-- For the shopping cart icon and had to take some help from chatgpt to make
+    it actually work-->
+    <nav>
+      <ul>
+        <li>Home</li>
+        <li>Products</li>
+        <li>Shopping cart <span class="fas fa-shopping-cart"></span></li>
+        <!-- This is the shopping cart icon and places it next to the -->
+      </ul>
+    </nav>
+  </header>
+</body>
