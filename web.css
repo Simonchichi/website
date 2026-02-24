@@ -25,3 +25,30 @@ header {
 .logo {
   margin: 0px;
 }
+
+.cow-gallery {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+section {
+  padding: 20px;
+}
+
+section h2 {
+  width: 100%;
+  text-align: center;
+}
+
+.cow {
+  text-align: center;
+}
+
+.cow img {
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+}
