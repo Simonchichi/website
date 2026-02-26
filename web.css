@@ -52,3 +52,23 @@ section h2 {
   object-fit: cover;
   border-radius: 10px;
 }
+
+.pick-us {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.reasons {
+  background-color: #d8dec6;
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact {
+  text-align: center;
+}
