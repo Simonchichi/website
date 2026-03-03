@@ -76,3 +76,35 @@ section h3 {
 .contact {
   text-align: center;
 }
+
+.product-detail {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.product-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.product-content {
+  display: flex;
+  gap: 50px;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.product-content img {
+  width: 400px;
+}
+
+.product-info {
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.product-info p {
+  line-height: 1.6;
+}
