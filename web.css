@@ -33,6 +33,12 @@ header {
   flex-wrap: wrap;
 }
 
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
 section {
   padding: 20px;
 }
